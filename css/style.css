@@ -1,0 +1,231 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+/* Максимальная ширина, семейство шрифтов, стиль, толщина, размер текста. */
+body{
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 160%;
+}
+/* Минимальная высота, отображение области внутри элемента */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1920px;
+}
+/* =============================================================header================================================================= */
+.menu{
+	color: #5267a3;
+	font-weight: 700;
+	font-size: 24px;
+}
+.menu-list-item{
+	text-transform: uppercase;
+}
+.menu-list-item:hover{
+	text-decoration: underline;
+}
+/* =============================================================Main================================================================= */
+.main{
+	max-width: 810px;
+	margin: 0 auto;
+}
+/* ================================================================MAKET-1==================================================================== */
+.maket-page{
+	max-width: 810px;
+	margin: 0 auto;
+}
+h1{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin: 0 0 26px 0;
+}
+.maket-page-content {
+	margin: 0 0 40px 0;
+}
+.maket-page-content *:last-child{
+	margin-right: 0;
+}
+.calendar {
+	display: inline-block;
+	color: #787A80;
+	background: url("../img/icons/calendar.svg") 0 5px no-repeat;
+	padding: 0 0 0 24px;
+	margin: 0 24px 0 0;
+}
+.union {
+	display: inline-block;
+	color: #787A80;
+	background: url("../img/icons/union.svg") 0 5px no-repeat;
+	padding: 0 0 0 24px;
+	margin: 0 413px 0 0;
+}
+.social-networks {
+	display: inline-block;
+	margin: 0 12px 0 0;
+	color: #1E212C;
+	font-weight: 700;
+}
+.facebook {
+	display: inline-block;
+	margin: 0 12px 0 0;
+}
+.twitter {
+	display: inline-block;
+	margin: 0 12px 0 0;
+}
+.instagram {
+	display: inline-block;
+	margin: 0 12px 0 0;
+}
+.content-image{
+	margin: 0 0 60px 0;
+}
+.paragraph-bold1 {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	margin: 0 0 24px 0;
+}
+.text1 {
+	color: #424551;
+	margin: 0 0 40px 0;
+}
+.text2 {
+	color: #424551;
+	margin: 0 0 48px 0;
+}
+.paragraph-bold2 {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	background: url("../img/icons/braces.svg") 0 0 no-repeat;
+	padding: 0 0 0 58px;
+	margin: 0 0 48px 0;
+}
+.text3{
+	color: #424551;
+	margin: 0 0 24px 0;
+}
+.maket-page-list{
+	margin: 0 0 24px 0;
+	color: #424551;
+}
+.list-item{
+	background: url("../img/icons/check.svg") 0 5px / 16px 16px no-repeat;
+	padding: 0 0 0 32px;
+}
+.list-item:not(:last-child){
+	margin: 0 0 4px 0;
+}
+.text4{
+	margin: 0 0 60px 0;
+}
+/* =======================================================GAME========================================================= */
+.game {
+	max-width: 810px;
+	min-height: 700px;
+	background-color: rgb(255, 174, 174);
+}
+.game-block-1 {
+	max-width: 100px;
+	min-height: 200px;
+	background-color: rgb(126, 124, 255);
+}
+.game-block-1:hover+.game-block-2, .game-block-2:hover {
+	visibility: inherit;
+}
+.game-block-2 {
+	max-width: 810px;
+	min-height: 50px;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-2:hover+.game-block-3, .game-block-3:hover{
+	visibility: inherit;
+}
+.game-block-3 {
+	max-width: 50px;
+	min-height: 75px;
+	margin-left: auto;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-3:hover+.game-block-4, .game-block-4:hover{
+	visibility: inherit;
+}
+.game-block-4 {
+	max-width: 810px;
+	min-height: 50px;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-4:hover+.game-block-5, .game-block-5:hover{
+	visibility: inherit;
+}
+.game-block-5 {
+	max-width: 25px;
+	min-height: 75px;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-5:hover+.game-block-6, .game-block-6:hover{
+	visibility: inherit;
+}
+.game-block-6 {
+	max-width: 810px;
+	min-height: 50px;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-6:hover+.game-block-7, .game-block-7:hover{
+	visibility: inherit;
+}
+.game-block-7 {
+	max-width: 25px;
+	min-height: 75px;
+	margin-left: auto;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-7:hover+.game-block-8, .game-block-8:hover{
+	visibility: inherit;
+}
+.game-block-8 {
+	max-width: 810px;
+	min-height: 50px;
+	background-color: rgb(126, 124, 255);
+	visibility: hidden;
+}
+.game-block-8:hover+.game-block-9, .game-block-9:hover{
+	visibility: inherit;
+}
+.game-block-9 {
+	max-width: 30px;
+	min-height: 75px;
+	background-color: rgb(255, 0, 0);
+	visibility: hidden;
+}
+.game-block-9:hover~.game-block-10, .game-block-10:hover{
+	visibility: inherit;
+	background: url("../img/logo.png") 0 0 / cover no-repeat fixed;
+}
+.game-block-10{
+	max-width: 810px;
+	min-height: 500px;
+	visibility: hidden;
+} 
+/* ===========================================Footer======================================= */
+.footer-link{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 900;
+	color: rgba(0, 38, 206, 0.521);
+	text-transform: uppercase;
+}
+
+
